@@ -1,0 +1,5 @@
+{
+    "yaml.schemas": {
+        "kubernetes://schema/apps/v1%40deployment": "file:///home/uuuuuno/Documents/projects/home-lab/kubernetes%20cluster/games/minecraft/manifest.yaml"
+    }
+}

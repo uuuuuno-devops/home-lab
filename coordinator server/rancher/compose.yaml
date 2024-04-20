@@ -1,0 +1,10 @@
+services:
+  rancher:
+    image: rancher/rancher:latest
+    restart: unless-stopped
+    ports:
+      - 8080:80
+      - 8443:443
+    volumes:
+      - ./data:/var/lib/rancher
+    privileged: true
