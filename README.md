@@ -12,4 +12,4 @@ In this repository, I open and share configs for setting up and managing some of
 
 ## Contribution
 
-You can contribute your suggestions and improvements to this repository by creating pull requests.# home-lab
+You can contribute your suggestions and improvements to this repository by creating pull requests.
