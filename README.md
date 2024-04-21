@@ -1,6 +1,8 @@
 # Home Laboratory
 
-In this repository, I open and share configs for setting up and managing some of my home servers.
+💾 Some of the applications that I run in my home lab.
+
+![img](https://storage.yandexcloud.net/uuuuuno/github/home-lab/img.png)
 
 ## Repository Contents
 
