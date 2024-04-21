@@ -1,3 +1,3 @@
 # Coordinator Server
 
-- **Rancher**: https://hub.docker.com/r/rancher/rancher
+- **rancher**: https://hub.docker.com/r/rancher/rancher
