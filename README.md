@@ -7,6 +7,7 @@ In this repository, I open and share configs for setting up and managing some of
 - **ansible tasks**
 - **apps server**
 - **coordinator server**
+- **data server**
 - **kubernetes cluster**
 - **proxy server**
 
