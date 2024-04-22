@@ -1,0 +1,9 @@
+services:
+  urtmp:
+    image: jkuri/urtmp
+    restart: unless-stopped
+    ports:
+      - "1935:1935"
+      - "8080:8080"
+    volumes:
+      - ./data:/streams

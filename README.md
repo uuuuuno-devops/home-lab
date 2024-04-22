@@ -9,13 +9,21 @@
 Each directory is a separate server or a group of servers virtualized on my proxmox cluster.
 
 - **ansible tasks**
+  - update ubuntu
+  - install docker
 - **apps server**
+  - uptime-kuma
+  - urtmp
 - **coordinator server**
+  - rancher
 - **data server**
+  - postgres
 - **kubernetes cluster**
+  - minecraft
 - **proxy server**
+  - cloudflared
 
-## Other technologies
+---
 
 ### Proxmox
 
