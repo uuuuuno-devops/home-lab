@@ -23,7 +23,7 @@ Each directory is a separate server or a group of servers virtualized on my prox
 - **proxy server**
   - cloudflared
 
----
+## Other
 
 ### Proxmox
 
