@@ -6,3 +6,7 @@ services:
       - 3001:3001
     volumes:
       - ./data:/app/data
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token <Token>
+    restart: unless-stopped

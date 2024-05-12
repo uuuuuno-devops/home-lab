@@ -8,4 +8,8 @@ services:
       - ./data/db/:/var/lib/postgresql/data/
       - ./data/scripts/init.sql:/docker-entrypoint-initdb.d/init.sql
     environment:
-      POSTGRES_PASSWORD: password
+      POSTGRES_PASSWORD: <Password>
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token <Token>
+    restart: unless-stopped

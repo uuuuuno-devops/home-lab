@@ -12,6 +12,7 @@ Each directory is a separate server or a group of servers virtualized on my prox
   - update ubuntu
   - install docker
 - **apps server**
+  - ghost
   - uptime-kuma
   - urtmp
 - **coordinator server**

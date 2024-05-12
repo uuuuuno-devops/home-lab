@@ -7,3 +7,7 @@ services:
       - "8080:8080"
     volumes:
       - ./data:/streams
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    command: tunnel --no-autoupdate run --token <Token>
+    restart: unless-stopped
