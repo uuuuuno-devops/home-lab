@@ -1,0 +1,8 @@
+---
+- name: Проверка доступности хостов Fern Agent (ping)
+  hosts: fern_agent
+  gather_facts: false
+
+  tasks:
+    - name: Отправка ping
+      ansible.builtin.ping:
