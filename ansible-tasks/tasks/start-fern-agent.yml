@@ -1,0 +1,13 @@
+---
+- name: Запустить Fern Agent
+  hosts: fern_agent
+  become: yes
+
+  vars:
+    fern_dir: /root/fern-agent
+
+  tasks:
+    - name: Запуск контейнеров
+      shell: docker compose up -d
+      args:
+        chdir: "{{ fern_dir }}"

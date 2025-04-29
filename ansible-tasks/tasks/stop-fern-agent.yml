@@ -1,0 +1,13 @@
+---
+- name: Остановить Fern Agent
+  hosts: fern_agent
+  become: yes
+
+  vars:
+    fern_dir: /root/fern-agent
+
+  tasks:
+    - name: Остановить контейнеры
+      shell: docker compose down
+      args:
+        chdir: "{{ fern_dir }}"

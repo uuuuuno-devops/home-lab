@@ -1,0 +1,11 @@
+---
+- name: Обновить Fern Agent
+  hosts: fern_agent
+  become: yes
+
+  vars:
+    fern_image: docker.khoz.ru/fern-agent
+
+  tasks:
+    - name: Скачать последний образ
+      shell: docker pull {{ fern_image }}
